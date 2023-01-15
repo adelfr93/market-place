@@ -1,0 +1,17 @@
+main {
+  min-height: 30vh;
+}
+
+.carousel {
+  height: calc(100vh - 150px);
+}
+
+.carousel-inner,
+.carousel-item,
+.carousel-item>img {
+  height: 100%;
+}
+
+.carousel-item>img {
+  object-fit: cover;
+}
